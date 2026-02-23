@@ -48,3 +48,13 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Testing
+
+A separate `tests/` directory contains pytest-based integration tests for the FastAPI backend.  Run the tests with:
+
+```sh
+pip install -r ../requirements.txt
+pytest
+```
+
